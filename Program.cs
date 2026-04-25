@@ -27,7 +27,7 @@ string[] splitLine(string line, int lineIndex)
     List<string> output = new List<string> { opCode };
 
     foreach (string operand in operands)
-        output.Add(operand.Trim());
+        output.Add(operand);
 
     return output.ToArray();
 }
@@ -106,6 +106,31 @@ void runLine(string line, int lineIndex)
         case "jumpl":
             batchCode.Add($"if defined {code[1]} if %{code[1]}%==-1 goto {code[2]}");
             break;
+        
+        case "halt":
+            batchCode.Add("pause >nul");
+            break;
+
+        case "clear":
+            batchCode.Add("cls");
+            break;
+
+        case "inc":
+            batchCode.Add($"if not defined {code[1]} set {code[1]}=0");
+            batchCode.Add($"set /a {code[1]}=%{code[1]}%+1");
+            break;
+
+        case "dec":
+            batchCode.Add($"if not defined {code[1]} set {code[1]}=0");
+            batchCode.Add($"set /a {code[1]}=%{code[1]}%-1");
+            break;
+
+        case "prompt":
+        {
+            string message = resolveValue(code[2]);
+            batchCode.Add($"set /p {code[1]}={message}");
+            break;
+        }
 
         default:
             throw new Exception($"Unknown opcode '{code[0]}' at line {lineIndex + 1}");
