@@ -20,7 +20,7 @@ You can place them anywhere (recommended: `C:\tools\JVS\`).
 
 ```bash
 dotnet build
-dotnet publish -r win-x64 -p:PublishSingleFile=true --self-contained true
+dotnet publish .\JVS.csproj -r win-x64 -p:PublishSingleFile=true --self-contained true
 ```
 The executable will appear in:
 ```
