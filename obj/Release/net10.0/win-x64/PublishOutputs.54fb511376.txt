@@ -1,0 +1,2 @@
+C:\Users\gages\Downloads\Batch Compiler\bin\Release\net10.0\win-x64\publish\MyCompiler.pdb
+C:\Users\gages\Downloads\Batch Compiler\bin\Release\net10.0\win-x64\publish\MyCompiler.exe

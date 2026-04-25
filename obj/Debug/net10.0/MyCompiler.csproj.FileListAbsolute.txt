@@ -1,0 +1,14 @@
+C:\Users\gages\Downloads\Batch Compiler\bin\Debug\net10.0\MyCompiler.exe
+C:\Users\gages\Downloads\Batch Compiler\bin\Debug\net10.0\MyCompiler.deps.json
+C:\Users\gages\Downloads\Batch Compiler\bin\Debug\net10.0\MyCompiler.runtimeconfig.json
+C:\Users\gages\Downloads\Batch Compiler\bin\Debug\net10.0\MyCompiler.dll
+C:\Users\gages\Downloads\Batch Compiler\bin\Debug\net10.0\MyCompiler.pdb
+C:\Users\gages\Downloads\Batch Compiler\obj\Debug\net10.0\MyCompiler.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\gages\Downloads\Batch Compiler\obj\Debug\net10.0\MyCompiler.AssemblyInfoInputs.cache
+C:\Users\gages\Downloads\Batch Compiler\obj\Debug\net10.0\MyCompiler.AssemblyInfo.cs
+C:\Users\gages\Downloads\Batch Compiler\obj\Debug\net10.0\MyCompiler.csproj.CoreCompileInputs.cache
+C:\Users\gages\Downloads\Batch Compiler\obj\Debug\net10.0\MyCompiler.dll
+C:\Users\gages\Downloads\Batch Compiler\obj\Debug\net10.0\refint\MyCompiler.dll
+C:\Users\gages\Downloads\Batch Compiler\obj\Debug\net10.0\MyCompiler.pdb
+C:\Users\gages\Downloads\Batch Compiler\obj\Debug\net10.0\MyCompiler.genruntimeconfig.cache
+C:\Users\gages\Downloads\Batch Compiler\obj\Debug\net10.0\ref\MyCompiler.dll
