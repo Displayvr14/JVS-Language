@@ -88,6 +88,12 @@ print(pass)    |
 label(end)  <--|
 print(end)
 ```
+### Comparing Values
+```jvs
+cmp(variable, 5, 6) -> variable = -1
+cmp(variable2, 5, 5) -> variable = 0
+cmp(variable3, 5, 4) -> variable = 1
+```
 
 ## 🔁 Compilation Flow
 ```
