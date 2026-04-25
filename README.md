@@ -2,8 +2,6 @@
 
 JVS is a lightweight custom language that compiles `.jvs` source files into Windows Batch (`.bat`) scripts using a C# transpiler.
 
-It is designed for learning how compilers, parsers, and code generation work in a simple and practical way.
-
 ---
 
 ## 📦 Installation
