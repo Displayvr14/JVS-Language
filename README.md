@@ -54,7 +54,7 @@ output.bat
 ### ⚡ Using the Run Script (Optional)
 If you included run.bat, you can simplify the workflow:
 ```bash
-run main.jvs
+JVSrun main.jvs
 ```
 This automatically:
 1. Compiles main.jvs → main.bat
