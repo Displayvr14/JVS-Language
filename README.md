@@ -94,6 +94,23 @@ cmp(variable, 5, 6) -> variable = -1
 cmp(variable2, 5, 5) -> variable = 0
 cmp(variable3, 5, 4) -> variable = 1
 ```
+### Conditional Jumping
+```jvs
+var(index, 10) - Amount Of Loops
+var(loopc, 0)  - Current Loop Index
+
+label(loop)
+
+print($index)
+
+sub(index, 1)
+add(loopc, 1)
+
+cmp(comp, $index, 0)
+jumpg(comp, loop) -> jump if greater
+
+print(end)
+```
 
 ## 🔁 Compilation Flow
 ```
