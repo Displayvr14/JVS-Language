@@ -10,7 +10,7 @@ JVS is a lightweight custom language that compiles `.jvs` source files into Wind
 Download the source code and ensure you have:
 ```
 {root}\JVS-Compiler\bin\Release\net10.0\win-x64\publish\JVS.exe
-{root}\JVS-Compiler\bin\Release\net10.0\win-x64\publish\run.bat (optional helper script)
+{root}\JVS-Compiler\bin\Release\net10.0\win-x64\publish\JVSrun.bat (optional helper script)
 ```
 You can place them anywhere (recommended: `C:\tools\JVS\`).
 
