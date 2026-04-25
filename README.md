@@ -80,6 +80,15 @@ sub(x, $y) // x - y -> x
 mul(x, $y) // x * y -> x
 div(x, $y) // x / y -> x
 ```
+### Control Flow
+```jvs
+jump(end)  >---|
+print(pass)    |
+	       |
+label(end)  <--|
+print(end)
+```
+
 ## 🔁 Compilation Flow
 ```
 .jvs file
